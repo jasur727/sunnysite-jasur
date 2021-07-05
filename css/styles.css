@@ -1,0 +1,486 @@
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Bold.woff2") format("woff2"),
+    url("../fonts/Barlow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Barlow";
+  src: url("../fonts/Barlow-Regular.woff2") format("woff2"),
+    url("../fonts/Barlow-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Fraunces 9pt Soft";
+  src: url("../fonts/Fraunces9ptSoft-Black.woff2") format("woff2"),
+    url("../fonts/Fraunces9ptSoft-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: #F2F2F2;
+  font-family: 'Fraunces 9pt Soft', sans-serif;
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1460px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* header */
+
+.header {
+  width: 100%;
+  background-image: url("../img/site-hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 538px;
+}
+
+.site__header {
+  padding: 32px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-button {
+  background-color: transparent;
+  border: transparent;
+  color: transparent;
+}
+
+/* nav */
+
+.site-nav {
+  background-color: #fff;
+  padding: 39px 125px;
+  border-right: 24px solid transparent;
+}
+
+.nav__icon {
+  padding: 0;
+}
+
+.nav__item {
+  list-style: none;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.nav__link {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.142857px;
+  color: #808397;
+  text-decoration: none;
+
+}
+
+.contact {
+  display: inline-block;
+  font-family: 'Fraunces 9pt Soft', sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.107143px;
+  text-transform: uppercase;
+  color: #24303E;
+  border: 2px solid transparent;
+  padding: 16px 31px;
+  background: #FBD600;
+  border-radius: 28px;
+  margin-bottom: 0;
+  margin-left: -26px;
+  transition: all 0.5s ease;
+}
+
+.contact:hover {
+  background-color: rgb(255, 255, 255, 0.25);
+  border-radius: 28px;
+  color: rgb(255, 255, 255);
+}
+
+.nav {
+  display: none;
+}
+
+.nav--open .nav {
+  display: block;
+}
+
+/* .creatives */
+
+.creatives__item {
+  position: relative;
+}
+
+.creatives__heading {
+  font-family: 'Fraunces 9pt Soft', sans-serif;
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: 6.25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 296px;
+}
+
+.features-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.features-item__title {
+  font-family: 'Fraunces 9pt Soft', sans-serif;
+  width: 300px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: -0.228571px;
+  color: #24303E;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+}
+
+.features-item__content-wrapper {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.features-item__text {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: -0.128571px;
+  color: #808397;
+  margin: 0;
+  padding: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-bottom: 32px;
+}
+
+.features-item__link {
+  font-family: 'Fraunces 9pt Soft', sans-serif;
+  position: relative;
+  z-index: 2;
+  width: 120px;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24303E;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 126px;
+  transition: opacity 0.3s ease;
+}
+
+.features-item__link:hover {
+  opacity: 0.6;
+}
+
+.features-item__link::after {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 137px;
+  height: 10px;
+  background-color: #FAD400;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 28px;
+  margin-left: 118px;
+}
+
+.pink::after {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 137px;
+  height: 10px;
+  background-color: #FE7766;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  border-radius: 28px;
+  margin-left: 118px;
+}
+
+.item-features {
+  padding-top: 398px;
+  padding-bottom: 59px;
+  background-image: url(../img/cherry);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.item-features__title {
+  width: 300px;
+  font-family: 'Fraunces 9pt Soft', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 35px;
+  letter-spacing: -0.2px;
+  color: #24554A;
+  margin: 0;
+  padding: 0;
+  padding-left: 77px;
+}
+
+.item-features__text {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: -0.114286px;
+  color: #24554A;
+  padding: 0;
+  margin: 0;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 27px;
+}
+
+.item-two {
+  background-image: url(../img/apelsin);
+}
+
+.title-two {
+  padding-left: 87px;
+}
+
+@media only screen and (min-width: 768px) {
+  .header {
+    width: 100%;
+    background-image: url("../img/site-hero-desktop.jpg");
+    background-repeat: no-repeat;
+  }
+
+  .header__wrapper {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding: 40px;
+  }
+
+  .site__header {
+    padding: 0;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav__span {
+    display: none;
+  }
+
+  .nav__icon {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-nav {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .nav__item {
+    margin: 0;
+    margin-right: 47px;
+  }
+
+  .nav__link {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #FFFFFF;
+  }
+
+  .contact__item {
+    margin: 0;
+    margin-left: 17px;
+  }
+
+  .contact {
+    background-color: transparent;
+    border: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+    padding: 15px 31px;
+    background-color: #FBD600;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .header {
+    width: 100%;
+    background-image: url(../img/site-hero-desktop.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .header__wrapper {
+    padding: 46px 40px;
+    margin: 0;
+  }
+
+  .features-item {
+    display: flex;
+  }
+
+  .features-item__content-wrapper {
+    margin-left: 43px;
+    margin-right: 24px;
+  }
+
+  .features-item2 {
+    flex-direction: row-reverse;
+  }
+
+  .features-item__img{
+    width: 501px;
+  }
+
+  .features-item__title {
+    padding: 0;
+    margin: 0;
+    width: 445px;
+    font-family: ' Fraunces 9pt Soft', sans-serif;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    text-align: left;
+  }
+
+  .features-item__text {
+    padding: 0;
+    margin: 0;
+    width: 445px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    text-align: left;
+  }
+
+  .features-item__link {
+    padding: 0;
+    font-family: 'Fraunces 9pt Soft', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303E;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  .features-item__link::after {
+    margin: 0;
+  }
+
+  .features__wrapper{
+    display: flex;
+  }
+
+  .item-features {
+    padding-top: 398px;
+    padding-bottom: 59px;
+    width: 520px;
+    background-image: url('../img/cherry-decktop.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .item-two {
+    background-image: url(../img/apelsin-decktop.png);
+    width: 520px;
+  }
+
+  .title-two {
+    padding-left: 87px;
+  }
+
+  .item-features__title{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
