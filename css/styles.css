@@ -320,79 +320,11 @@ body {
     width: 100%;
     background-image: url("../img/site-hero-desktop.jpg");
     background-repeat: no-repeat;
+    background-position: center;
+    min-height: 600px;
   }
 
-  .header__wrapper {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    padding: 40px;
-  }
-
-  .site__header {
-    padding: 0;
-  }
-
-  .header-button {
-    display: none;
-  }
-
-  .nav {
-    display: block;
-    margin-left: auto;
-  }
-
-  .nav__span {
-    display: none;
-  }
-
-  .nav__icon {
-    display: flex;
-    margin: 0;
-    padding: 0;
-  }
-
-  .site-nav {
-    background-color: transparent;
-    padding: 0;
-  }
-
-  .nav__item {
-    margin: 0;
-    margin-right: 47px;
-  }
-
-  .nav__link {
-    font-family: 'Barlow', sans-serif;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.128571px;
-    color: #FFFFFF;
-  }
-
-  .contact__item {
-    margin: 0;
-    margin-left: 17px;
-  }
-
-  .contact {
-    background-color: transparent;
-    border: transparent;
-    padding: 0;
-    border: 1px solid transparent;
-    padding: 15px 31px;
-    background-color: #FBD600;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-
-  .header {
-    width: 100%;
-    background-image: url(../img/site-hero-desktop.jpg);
-    background-repeat: no-repeat;
-  }
-
+  
   .header__wrapper {
     padding: 46px 40px;
     margin: 0;
@@ -403,8 +335,8 @@ body {
   }
 
   .features-item__content-wrapper {
-    margin-left: 43px;
-    margin-right: 24px;
+    margin-left: 39px;
+    margin-right: 8px;
   }
 
   .features-item2 {
@@ -412,31 +344,33 @@ body {
   }
 
   .features-item__img{
-    width: 501px;
+    width: 375px;
   }
 
   .features-item__title {
     padding: 0;
     margin: 0;
-    width: 445px;
-    font-family: ' Fraunces 9pt Soft', sans-serif;
-    font-size: 40px;
-    line-height: 49px;
+    width: 330px;
+    font-family: 'Fraunces 9pt Soft', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
     letter-spacing: -0.285714px;
     color: #24303E;
     text-align: left;
+    margin-bottom: 14px;
   }
 
   .features-item__text {
     padding: 0;
     margin: 0;
-    width: 445px;
+    width: 260px;
     font-family: 'Barlow', sans-serif;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 12px;
+    line-height: 23px;
     letter-spacing: -0.128571px;
     color: #808397;
     text-align: left;
+    margin-bottom: 23px;
   }
 
   .features-item__link {
@@ -482,5 +416,233 @@ body {
   .item-features__title{
     margin-left: auto;
     margin-right: auto;
+    padding-left: 40px;
+  }
+
+  .header__wrapper {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding: 40px;
+  }
+
+  .site__header {
+    padding: 0;
+  }
+
+  .header-button {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav__span {
+    display: none;
+  }
+
+  .nav__icon {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-nav {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .nav__item {
+    margin: 0;
+    margin-right: 47px;
+  }
+
+  .nav__link {
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    line-height: 6px;
+    letter-spacing: -0.128571px;
+    color: #FFFFFF;
+  }
+
+  .contact__item {
+    margin: 0;
+    margin-left: 17px;
+  }
+
+  .contact {
+    background-color: transparent;
+    border: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+    padding: 15px 31px;
+    background-color: #FBD600;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+
+  .header {
+    width: 100%;
+    background-image: url(../img/site-hero-desktop.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .header__wrapper {
+    padding: 46px 40px;
+    margin: 0;
+  }
+
+  .features-item {
+    display: flex;
+  }
+
+  .features-item__content-wrapper {
+    margin-left: 43px;
+    margin-right: -32px;
+  }
+
+  .features-item2 {
+    flex-direction: row-reverse;
+  }
+
+  .features-item__img{
+    width: 440px;
+  }
+
+  .features-item__title {
+    padding: 0;
+    margin: 0;
+    width: 445px;
+    font-family: ' Fraunces 9pt Soft', sans-serif;
+    font-size: 27px;
+    line-height: 40px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    text-align: left;
+    margin-bottom: 14px;
+  }
+
+  .features-item__text {
+    padding: 0;
+    margin: 0;
+    width: 365px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    text-align: left;
+    margin-bottom: 23px;
+  }
+
+  .features-item__link {
+    padding: 0;
+    font-family: 'Fraunces 9pt Soft', sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303E;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+  }
+
+  .features-item__link::after {
+    margin: 0;
+  }
+
+  .features__wrapper{
+    display: flex;
+  }
+
+  .item-features {
+    padding-top: 398px;
+    padding-bottom: 59px;
+    width: 520px;
+    background-image: url('../img/cherry-decktop.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .item-two {
+    background-image: url(../img/apelsin-decktop.png);
+    width: 520px;
+  }
+
+  .title-two {
+    padding-left: 87px;
+  }
+
+  .item-features__title{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+
+  .header{
+    width: 100%;
+    background-image: url("../img/site-hero-desktop.jpg");
+    background-repeat: no-repeat;
+    min-height: 707px;
+  }
+
+  .features-item__title{
+    width: 445px;
+    font-family: 'Fraunces 9pt Soft',sans-serif;  
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;        
+    color: #24303E;
+  }
+
+  .features-item__text{
+    width: 445px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .features-item__img{
+    width: 640px;
+  }
+
+  .features-item__content-wrapper {
+    margin-left: 78px;
+    margin-right: 153px;
+  }
+
+  .item-features {
+    padding-top: 398px;
+    padding-bottom: 59px;
+    width: 639px;
+    background-image: url('../img/cherry-decktop.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+  .item-features__title{
+    padding: 0;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 46px;
+  }
+
+  .item-features__text{
+    width: 453px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .item-two{
+    background-image: url(../img/apelsin-decktop.png);
+    width: 520px;       
   }
 }
