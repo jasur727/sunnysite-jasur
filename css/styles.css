@@ -500,8 +500,9 @@ body {
   }
 
   .features-item__content-wrapper {
-    margin-left: 43px;
-    margin-right: -32px;
+    margin-left: 68px;
+    margin-right: -42px;
+    margin-top: 70px;
   }
 
   .features-item2 {
@@ -509,7 +510,7 @@ body {
   }
 
   .features-item__img{
-    width: 440px;
+    width: 441px;
   }
 
   .features-item__title {
@@ -562,7 +563,7 @@ body {
   .item-features {
     padding-top: 398px;
     padding-bottom: 59px;
-    width: 520px;
+    width: 621px;
     background-image: url('../img/cherry-decktop.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -571,7 +572,7 @@ body {
 
   .item-two {
     background-image: url(../img/apelsin-decktop.png);
-    width: 520px;
+    width: 621px;
   }
 
   .title-two {
@@ -584,7 +585,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1300px) {
+@media only screen and (min-width: 1200px) {
 
   .header{
     width: 100%;
@@ -609,7 +610,7 @@ body {
   }
 
   .features-item__img{
-    width: 640px;
+    width: 590px;
   }
 
   .features-item__content-wrapper {
@@ -620,7 +621,7 @@ body {
   .item-features {
     padding-top: 398px;
     padding-bottom: 59px;
-    width: 639px;
+    width: 621px;
     background-image: url('../img/cherry-decktop.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -643,6 +644,6 @@ body {
 
   .item-two{
     background-image: url(../img/apelsin-decktop.png);
-    width: 520px;       
+    width: 621px;       
   }
 }
