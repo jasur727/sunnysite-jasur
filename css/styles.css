@@ -610,7 +610,7 @@ body {
   }
 
   .features-item__img{
-    width: 590px;
+    width: 721px;
   }
 
   .features-item__content-wrapper {
@@ -621,7 +621,7 @@ body {
   .item-features {
     padding-top: 398px;
     padding-bottom: 59px;
-    width: 621px;
+    width: 721px;
     background-image: url('../img/cherry-decktop.png');
     background-repeat: no-repeat;
     background-position: center center;
@@ -644,6 +644,6 @@ body {
 
   .item-two{
     background-image: url(../img/apelsin-decktop.png);
-    width: 621px;       
+    width: 721px;       
   }
 }
