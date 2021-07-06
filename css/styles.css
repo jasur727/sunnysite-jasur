@@ -173,6 +173,10 @@ body {
   margin-bottom: 296px;
 }
 
+.features-item{
+  background-color: #fff;
+}
+
 .features-list {
   margin: 0;
   padding: 0;
@@ -322,7 +326,6 @@ body {
     min-height: 600px;
   }
 
-
   .header__wrapper {
     padding: 46px 40px;
     margin: 0;
@@ -330,6 +333,7 @@ body {
 
   .features-item {
     display: flex;
+    background-color: #fff;
   }
 
   .features-item__content-wrapper {
@@ -499,6 +503,7 @@ body {
 
   .features-item {
     display: flex;
+    background-color: rgb(255, 255, 255);
   }
 
   .features-item__content-wrapper {
@@ -596,6 +601,10 @@ body {
     min-height: 707px;
   }
 
+  .features-item{
+    background-color: #fff;
+  }
+
   .features-item__title {
     width: 445px;
     font-family: 'Fraunces 9pt Soft', sans-serif;
@@ -621,6 +630,7 @@ body {
     margin-left: 78px;
     margin-right: 153px;
     margin-top: 127px;
+    
   }
 
   .item-features {
