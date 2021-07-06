@@ -605,8 +605,10 @@ body {
 
   .features-item__text{
     width: 445px;
+    font-family: 'Barlow', sans-serif;
     font-size: 25px;
     line-height: 33px;
+    letter-spacing: -0.128571px;
   }
 
   .features-item__img{
@@ -616,6 +618,7 @@ body {
   .features-item__content-wrapper {
     margin-left: 78px;
     margin-right: 153px;
+    margin-top: 127px;
   }
 
   .item-features {
