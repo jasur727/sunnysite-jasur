@@ -417,11 +417,14 @@ body {
 
 .footer {
   background: #90D4C6;
+  padding: 64px 39px 80px 39px;
+  text-align: center;
 }
 
 .footer--middle {
   padding: 0;
   display: flex;
+  justify-content: center;
 }
 
 .footer-item{
@@ -436,10 +439,36 @@ body {
   line-height: 25px;
   letter-spacing: -0.128571px;
   color: #458D7E;
+  transition: color 0.5s ease;
+}
+
+.footer-link:hover{
+  color: #fff;
 }
 
 .footer--about{
   margin-left: 0;
+}
+
+.footer__down{
+  padding: 0;
+  display: flex;
+  margin-left: -28px;
+  justify-content: center;
+}
+
+.footer__down--item{
+  list-style: none;
+  margin-left: 28px;
+}
+
+.footer__down--svg{
+  fill:  #2C7566;
+  transition: all 0.5s ease;
+}
+
+.footer__down--svg:hover{
+  fill: #fff;
 }
 
 @media only screen and (min-width: 768px) {
