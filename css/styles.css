@@ -402,6 +402,46 @@ body {
   color: #A7AAAD;
 }
 
+.img-wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 160px;
+}
+
+.img--list {
+  display: block;
+}
+
+/* footer */
+
+.footer {
+  background: #90D4C6;
+}
+
+.footer--middle {
+  padding: 0;
+  display: flex;
+}
+
+.footer-item{
+  list-style: none;
+  margin-left: 57px;
+}
+
+.footer-link{
+  text-decoration: none;
+  font-family: 'Barlow',sans-serif;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: -0.128571px;
+  color: #458D7E;
+}
+
+.footer--about{
+  margin-left: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .header {
     width: 100%;
@@ -577,9 +617,6 @@ body {
 
   /* .client */
 
-  /* .client__list{
-    display: flex;
-  } */
   .client__item {
     align-items: center;
   }
@@ -590,6 +627,10 @@ body {
 
   .client__item--text {
     max-width: 100%;
+  }
+
+  .img--list {
+    width: 100%;
   }
 }
 
@@ -711,6 +752,7 @@ body {
     letter-spacing: -0.128571px;
     color: #5B636D;
   }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -749,7 +791,7 @@ body {
 
   .features-item__content-wrapper {
     margin-left: 78px;
-    margin-right: 153px;
+    margin-right: 65px;
     margin-top: 127px;
 
   }
@@ -782,5 +824,14 @@ body {
     background-image: url(../img/apelsin-decktop.png);
     width: 721px;
   }
-  
+
+  .img-wrapper {
+    display: flex;
+    /* max-width: -50%; */
+  }
+
+  .img--list {
+    max-width: 25%;
+  }
+
 }
