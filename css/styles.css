@@ -33,6 +33,7 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -56,8 +57,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   background: #F2F2F2;
-  font-family: 'Fraunces 9pt Soft', sans-serif;
-  font-family: 'Barlow', sans-serif;
+  font-family: 'Fraunces 9pt Soft','Barlow', Arial, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 24px;
@@ -66,7 +66,9 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1160px;
+  max-width: 1180px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -646,6 +648,9 @@ body {
 
   .client__item {
     align-items: center;
+    width: 33.3%;
+    padding-left: 48px;
+    padding-right: 48px;
   }
 
   .client__wrapper {
@@ -779,7 +784,6 @@ body {
     letter-spacing: -0.128571px;
     color: #5B636D;
   }
-
 }
 
 @media only screen and (min-width: 1200px) {
@@ -820,7 +824,6 @@ body {
     margin-left: 78px;
     margin-right: 65px;
     margin-top: 127px;
-
   }
 
   .item-features {
@@ -854,11 +857,9 @@ body {
 
   .img-wrapper {
     display: flex;
-    /* max-width: -50%; */
   }
 
   .img--list {
     max-width: 25%;
   }
-
 }
